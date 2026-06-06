@@ -47,7 +47,7 @@ Scam_Shield/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/Scam_Shield.git
+git clone https://github.com/<vardhanrajt6-pixel>/Scam_Shield.git
 cd Scam_Shield
 ```
 
