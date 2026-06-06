@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SCAM SHIELD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">SCAM SHIELD</h1>
+
+    <!-- Step 1: Select message type -->
+    <form id="typeForm">
+      <p class="subheading">Select the type of message:</p>
+      <label><input type="radio" name="msgType" value="sms" required> SMS</label>
+      <label><input type="radio" name="msgType" value="whatsapp"> WhatsApp</label>
+      <label><input type="radio" name="msgType" value="email"> Email</label>
+      <button type="submit">Enter</button>
+    </form>
+
+    <!-- Step 2: Input message (hidden until Enter is pressed) -->
+    <div id="inputSection" class="hidden">
+      <h2 class="subheading">Paste your message below:</h2>
+      <form id="scamForm">
+        <textarea id="message" name="message" placeholder="Type or paste your message here..." required></textarea>
+        <button type="submit">Analyze</button>
+      </form>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
