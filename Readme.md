@@ -17,6 +17,8 @@ It combines ML models, LLM reasoning, threat intelligence APIs, and a knowledge 
 ---
 
 ## Project Structure
+
+```
 Scam_Shield/
 │── backend/
 │   ├── main.py                # FastAPI backend entrypoint
@@ -35,6 +37,8 @@ Scam_Shield/
 │── requirements.txt           # Python dependencies
 │── README.md                  # Documentation
 
+
+```
 
 
 ---
